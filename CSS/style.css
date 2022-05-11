@@ -347,6 +347,7 @@ main{
 
 .main__logo{
     border-top:solid coral 5px;
+    border-bottom: solid salmon 7px;
 }
 .main__logo img{
     width: 100%;
@@ -520,42 +521,19 @@ footer{
     justify-content: center;
     display: flex;
     background-position: center;
+    gap: 5px;
+    border-top: solid salmon 7px;
 }
 
 .new-titulo{
     display: flex;
     width: 100%;
     justify-content: center;
-    color: beige;
+    color: salmon;
 
 }
 
-.new1{
-    width: 25%;
-    text-align: center;
-    color: beige;
-    border-radius: 10%;
-    background: rgb(255,233,185);
-    background: radial-gradient(circle, rgba(255,233,185,1) 0%, rgba(250,143,37,1) 35%, rgba(211,248,255,0) 100%);
-}
 
-.new2{
-    width: 25%;
-    text-align: center;
-    color: beige;
-    border-radius: 10%;
-    background: rgb(34,193,195);
-    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,0) 100%);
-}
-
-.new3{
-    width: 25%;
-    text-align: center;
-    border-radius: 10%;
-    color: beige;
-    background: rgb(13,13,13);
-    background: radial-gradient(circle, rgba(13,13,13,1) 0%, rgba(21,21,21,0) 100%);
-}
 .section-redes{
     background-image: url(../imagenes/fondo3.jpg);
     background-repeat: no-repeat;
@@ -576,7 +554,7 @@ footer{
     
     background-color: beige;
     border-radius: 5%;
-    width: 50%;
+    width: 30%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -589,6 +567,7 @@ footer{
    
 
 }
+
 
 
 
