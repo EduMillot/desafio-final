@@ -1,0 +1,54 @@
+main{
+    background-color: beige;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    .main__logo{
+        border-top:solid coral 5px;
+        border-bottom: solid salmon 7px;
+        img{
+            width: 100%;
+            height: auto;
+        
+            animation-duration: 2s;
+            animation-name: aparecer;
+            animation-iteration-count: initial;
+        }
+    }
+    @keyframes aparecer{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .main__spoty{
+    
+        padding: 5%;
+        background-image: url(../imagenes/fondo.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: beige;
+
+        h2{
+            color: coral;
+        }
+        
+    }
+    .banda{
+        color: coral;
+        text-align: center;
+        padding: 5%;
+        background-image: url(../imagenes/fotoGrupal.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        p{
+            font-weight: bolder;
+            -webkit-text-stroke: 0.5px black;
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+    }
+}

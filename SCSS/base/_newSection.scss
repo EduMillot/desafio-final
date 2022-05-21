@@ -1,0 +1,21 @@
+.news-container{
+    width: 100%;
+    padding: 5% 0 5% 0;
+    background-image: url(../imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    gap: 5px;
+    border-top: solid salmon 7px;
+}
+
+.new-titulo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: salmon;
+
+}
