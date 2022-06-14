@@ -543,6 +543,7 @@ footer{
 }
 
 .redes-container{
+    padding-bottom: 15% ;
     width: 80%;
     text-align: center;
     color: salmon;
@@ -551,10 +552,9 @@ footer{
 }
 
 .redes-item{
-    
     background-color: beige;
     border-radius: 5%;
-    width: 30%;
+    width: 25%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -568,6 +568,10 @@ footer{
 
 }
 
+.redes-titulo{
+    padding : 10%;
+
+}
 
 
 
