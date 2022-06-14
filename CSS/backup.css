@@ -581,5 +581,8 @@ footer{
     opacity: 100%;
 }
 
+.disclaimer{
+    display: none;
+}
 
 
